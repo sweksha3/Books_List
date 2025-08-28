@@ -10,7 +10,7 @@ export default function Create() {
     })
 
     const navigate = useNavigate()
-    const API_URL = "http://localhost:5001/books"
+    const API_URL = "https://books-list-rlja.onrender.com"
 
     const handleSubmit = async(e)=>{
       e.preventDefault()
