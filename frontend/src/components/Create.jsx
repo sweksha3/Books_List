@@ -29,7 +29,7 @@ export default function Create() {
         onChange={e=>setFormData({...formData,title:e.target.value})}
         required /> <br />
         Author : <input type='text' 
-        placeholder= 'Enter author'
+        placeholder= 'Enter author name'
         value={formData.author}
         className='form-control mb-2' 
         onChange={e=>setFormData({...formData,author:e.target.value})}
