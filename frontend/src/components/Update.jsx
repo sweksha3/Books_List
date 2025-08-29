@@ -12,7 +12,7 @@ export default function Update() {
   })
 
   const {id} = useParams()
-  const API_URL = "https://books-list-rlja.onrender.com"
+  const API_URL = "https://books-list-rlja.onrender.com/books"
   const navigate = useNavigate()
 
   useEffect(()=>{
